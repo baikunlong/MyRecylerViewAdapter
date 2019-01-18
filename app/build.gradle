@@ -1,13 +1,13 @@
-//apply plugin: 'com.android.application'
-apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.baikunlong'
+apply plugin: 'com.android.application'
+//apply plugin: 'com.android.library'
+//apply plugin: 'com.github.dcendents.android-maven'
+//group='com.github.baikunlong'
 
 
 android {
     compileSdkVersion 28
     defaultConfig {
-//        applicationId "cn.baikunlong.myrecylerviewadapter"
+        applicationId "cn.baikunlong.myrecylerviewadapter"
         minSdkVersion 15
 //        targetSdkVersion 25
         versionCode 1
